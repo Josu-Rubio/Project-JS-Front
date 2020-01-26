@@ -1,0 +1,24 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    text-align: center;
+        
+}
+footer li{
+    display: inline-block;
+    margin: 0px 30px 0px 0px;
+    border-image: round ;
+    -webkit-transition:-webkit-transform 0.3s ease-in-out 0.1s;
+    -moz-transition:-moz-transform 0.3s ease-in-out 0.1s;
+    -ms-transition:-ms-transform 0.3s ease-in-out 0.1s;
+}
+footer li img{
+    border-radius: 7px;
+}
+footer li img:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+}

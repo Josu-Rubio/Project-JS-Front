@@ -1,0 +1,107 @@
+.detail-section{
+background-color: rgba(172, 100, 6, 0.288);
+display: grid;
+grid-template-rows: auto;
+grid-gap: 0rem;
+padding: 0 1rem 0 1rem;
+justify-items: center; 
+align-items: center; 
+grid-auto-flow: dense;
+}
+
+.beer-name h1 {
+font-size: 2rem;
+padding-top: 1rem ;
+display: flex;
+justify-content: center;
+}
+
+.beer-content-left {
+widows: 100%;
+width: 200px;
+min-height: 75%; 
+display: flex;
+justify-content: center;
+align-items: top;
+font-size: medium;
+}
+
+.beer-content-right  {
+text-align: left;
+font-size: small;
+align-items: top;
+}
+
+.beer-content-right p {
+margin: .4rem 0 0 0;
+}
+
+.beer-content-right span {
+font-weight: 800;
+}
+
+.beer-content-right .parrafo {
+text-align: justify;
+
+}
+
+.beer-content-right ul {
+padding-left: 1rem;
+}
+
+.ingredients {
+font-size: smaller;
+
+}
+
+
+.beer-content-right > a  {
+text-align: center;
+text-decoration-line: none;
+
+}
+
+/*MEDIA QUERIES*/
+
+@media all and (min-width: 768px) {
+.detail-section{
+      
+  padding: 0 3rem 0 3rem;
+}
+  
+  .beer-title-section h1 {
+  padding: 1rem 0 1rem 0; 
+  font-size: 2.2rem;
+}
+
+.beer-content-right  {
+  font-size: 1rem;
+
+}
+
+}
+
+@media all and (min-width: 1280px) {
+.beer-title-section h1 {
+  padding: 1rem 0 1rem 0; 
+  font-size: 3rem;
+}
+
+.beer-content-right  {
+  font-size: 1.5rem;
+
+}
+}
+.quotes-list{
+  font-size: 1.5rem;
+}
+
+.list-item p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+}
+.list-item span{
+  font-size: 0.5rem;
+  color: rgb(92, 92, 92);
+
+}
